@@ -1,8 +1,0 @@
-<HTML>
-<HEAD>
-<TITLE>Testing</TITLE>
-</HEAD>
-<BODY BGCOLOR="36393e">
-<CENTER><IMG SRC="https://i.imgur.com/AMYV36h.jpg" ALIGN="BOTTOM"> </CENTER>
-</BODY>
-</HTML>
