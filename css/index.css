@@ -1,0 +1,53 @@
+/* latin */
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('AvenirLTStd-Light'), local('AvenirLTStd-Light.otf'), url(https://takashi-22812.github.io/css/AvenirLTStd-Light.otf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+body {
+	background-color: #282E34;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+#header {
+  border-style: double;
+  font-family: "Orbitron", "Times New Roman", Times, Serif;
+  font-size: "24px";
+  color: white;
+}
+.middle {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 50%;
+  width: 98%;
+  text-align: center;
+  color: #000;
+  background-color: #111;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+.whiteHeader {
+  color: white;
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 50%;
+  width: 98%;
+  text-align: center;
+}
