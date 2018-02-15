@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style id="parallaxStyling" type="text/css">
+	body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.parallax1, .parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .parallax1 {
+ 	background-image: url("http://laoblogger.com/images/clipart-galaxy-background-4.jpg");
+  	min-height: 100%;
+ 	}
+ .parallax2 {
+ 	background-image: url("https://images8.alphacoders.com/601/601973.jpg");
+ 	min-height: 100%;
+ }
+ /* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .parallax1, .parallax2 {
+        background-attachment: scroll;
+    }
+}
+</style>
+	<title>Nova Website</title>
+</head>
+
+<body>
+
+<div id="parallax1" class="parallax1">
+
+	<h1 id="header" class="middle">Welcome to the Nova Webpage!</h1>
+
+</div>
+
+<div id="sandwich1" style="height: 125%">
+<table style="max-width: 100%">
+	<tr>
+		<th style="width: 33.3%"></th>
+		<th style="width: 33.3%"></th>
+		<th style="width: 33.3%"></th>
+	</tr>
+	<tr>
+		<td>
+			<div id="mainParagraph" class="center">
+	<p class="paraHead">Info</p>
+	<p>Description<br></br>Filler Text</p>
+			</div>
+		</td>
+
+	<td>
+<div>
+</div>
+	</td>
+
+		<td>
+		</td>
+
+	</tr>
+	<td>
+
+	<br></br>
+
+<div id="parallaxBGCredit" class="center">
+	</div>
+	</td>
+	<td>
+<div id="Discord" class="center">
+	<p class="paraHead">Nova Discord Server</p>
+	<iframe src="https://discordapp.com/widget?id=363833124288987137&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</div>
+	</td>
+	<td>
+</table>
+
+</body>
+<div id="parallax2" class="parallax2"></div>
+<script type="text/javascript" src="js/quote.js"></script>
+</html>
