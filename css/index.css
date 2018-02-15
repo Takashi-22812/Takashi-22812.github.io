@@ -7,7 +7,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
 body {
-	background-color: #282E34;
+	background-color: #1d1887;
 }
 
 .left {
@@ -19,8 +19,8 @@ body {
 }
 
 #header {
-  border-style: double;
-  font-family: "Orbitron", "Times New Roman", Times, Serif;
+  border-style: single;
+  font-family: "AvenirLTStd-Light";
   font-size: "24px";
   color: white;
 }
@@ -31,8 +31,8 @@ body {
   top: 50%;
   width: 98%;
   text-align: center;
-  color: #000;
-  background-color: #111;
+  color: #fff;
+  background-color: #1d1887;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
