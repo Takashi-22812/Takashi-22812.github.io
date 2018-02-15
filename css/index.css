@@ -29,7 +29,7 @@ body {
   left: 1%;
   right: 1%;
   top: 45%;
-  width: 98%;
+  width: 75%;
   text-align: center;
   color: #fff;
   background-color: #1d1887;
@@ -42,12 +42,11 @@ body {
 .whiteHeader {
   color: white;
   font-size: 52px;
-  font-weight: bold;
   letter-spacing: 10px;
   position: absolute;
   left: 1%;
   right: 1%;
-  top: 50%;
-  width: 98%;
+  top: 45%;
+  width: 75%;
   text-align: center;
 }
