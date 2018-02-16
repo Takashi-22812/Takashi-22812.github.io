@@ -54,6 +54,21 @@ p {
   font-size: 2em;
   font-weight: bold;
 }
+.top {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%; 
+width: 100%;
+text-align: center;
+color: #fff;
+background-color: #1d1667;
+color: #fff;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 24px;
+letter-spacing: 7px;
+}
 
 .middle {
   position: absolute;
