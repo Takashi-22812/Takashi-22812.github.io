@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body {
-	background-color: #1d1887;
+	background-color: #1c187b;
 }
 
 .left {
@@ -21,7 +21,7 @@ body {
 	text-align: center;
 }
 .button1 {
-  background-color:#111949;
+  background-color:#1c187b;
   color:white;
   text-decoration:none;
   font-family: "AvenirLTStd-Light.otf", sans-serif;
@@ -62,7 +62,7 @@ top: 0%;
 width: 100%;
 text-align: center;
 color: #fff;
-background-color: #1d1667;
+background-color: #1c187b;
 color: #fff;
 padding-top: 20px;
 padding-bottom: 20px;
