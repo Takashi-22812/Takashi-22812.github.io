@@ -56,9 +56,9 @@ p {
 }
 .top {
 position: absolute;
-left: -2.5%;
+left: 0%;
 right: 0%;
-top: 0%; 
+top: -2.5%; 
 width: 100%;
 text-align: center;
 color: #fff;
