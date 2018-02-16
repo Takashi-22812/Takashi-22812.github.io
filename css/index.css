@@ -36,11 +36,11 @@ body {
 #header {
   border-style: single;
   font-family: "AvenirLTStd-Light";
-  font-size: "24px";
+  font-size: "2em";
   color: white;
 }
 table, th, td {
-    border: 1px solid white;
+    border: 0px solid white;
     border-collapse: collapse;
 }
 
@@ -51,7 +51,7 @@ p {
 }
 
 .paraHead {
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
 }
 
