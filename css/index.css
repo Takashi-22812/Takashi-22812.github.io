@@ -21,11 +21,10 @@ body {
 	text-align: center;
 }
 .buttonBlack {
-  background-color:black;
+  background-color:#111949;
   color:white;
   text-decoration:none;
-  padding:9px 12px;
-  font-family:-apple-system, "AvenirLTStd-Light.otf", sans-serif;
+  font-family: "AvenirLTStd-Light.otf", sans-serif;
   font-size:16px;
   font-weight:bold;
   display:inline-block;
