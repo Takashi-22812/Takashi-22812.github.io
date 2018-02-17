@@ -15,7 +15,7 @@
     left: 0;
     background-color: #111; 
     overflow-x: hidden; 
-    padding-top: 60px; 
+    padding-top: 10px; 
     transition: 0.5s; 
 
 .sidenav a {
