@@ -54,11 +54,7 @@
 body {
 	background-color: #1c187b;
 }
-.menu1 {
-color: white;
-top: -2.5%; 
-width: 50%;
-background-color: #1d1887;
+
 .left {
 	text-align: left;
 }
@@ -96,7 +92,7 @@ left: 25%;
 right: 0%;
 top: -2.5%; 
 width: 50%;
-z-index: 0;
+z-index: -1;
 text-align: center;
 color: #fff;
 background-color: #1d1887;
@@ -108,10 +104,10 @@ letter-spacing: 7px;
 
 .middle {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  width: 0%;
+  left: 12%;
+  right: 12%;
+  top: 45%;
+  width: 75%;
   text-align: center;
   color: #fff;
   background-color: #1d1887;
@@ -119,7 +115,7 @@ letter-spacing: 7px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 24px;
-  letter-spacing: 7px;
+  letter-spacing: 10px;
 }
 .whiteHeader {
   color: white;
