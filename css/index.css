@@ -113,15 +113,15 @@ p {
 .top {
 position: absolute;
 right: 0%;
-top: -4%; 
+top: -3%; 
 width: 100%;
 z-index: 0;
 text-align: center;
 color: #fff;
-background-color: 1D053A;
+background-color: #1D053A;
 color: #fff;
-padding-top: 0.5%;
-padding-bottom: 0.25%;
+padding-top: 2%;
+padding-bottom: 1%;
 font-size: 30px;
 letter-spacing: 5px;
 }
@@ -134,10 +134,10 @@ letter-spacing: 5px;
   width: 75%;
   text-align: center;
   color: #fff;
-  background-color: 1D053A;
+  background-color: #1D053A;
   color: #fff;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-size: 24px;
   letter-spacing: 10px;
 }
