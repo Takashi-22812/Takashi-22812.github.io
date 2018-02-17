@@ -54,7 +54,11 @@
 body {
 	background-color: #1c187b;
 }
-
+.menu1 {
+color: white;
+top: -2.5%; 
+width: 50%;
+background-color: #1d1887;
 .left {
 	text-align: left;
 }
