@@ -3,25 +3,112 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../discord/discord.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src = 'js/jquery-3.2.1.min.js'></script>
+<script src = 'js/overlay.js'></script>
 <style>
-  body, html {
+body, html {
+  font-family: 'AvenirLTStd-Light', sans-serif;
+  transition: background-color .5s;
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-background-image: url("https://laoblogger.com/images/clipart-galaxy-background-4.jpg");
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
-<head>
-  <title>Discord</title>
-</head>
+<style id="parallaxStyling" type="text/css">
+    body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.parallax1, .parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .parallax1 {
+     background-image: url("https://laoblogger.com/images/clipart-galaxy-background-4.jpg");
+      min-height: 80%;
+     }
+ .parallax2 {
+     background-image: url("https://images8.alphacoders.com/601/601973.jpg");
+     min-height: 80%;
+ }
+@media only screen and (max-device-width: 1024px) {
+    .parallax1, .parallax2 {
+        background-attachment: scroll;
+	</style>
 <body>
-    <div id="SiteNavi" class="center">
-    <p class="paraHead">Site Navigation
-    <a href="../index.html" class="buttonBlack">Home</a>
-      <a href="../discord/discord.html" class="buttonBlack">Discord</a>
-    </p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id = "closeBtn" onclick="closeNav()">&times;</a>
+  <a href="/index.html">Home</a>
+  <a href="/discord/discord.html">Discord</a>
+  <a href="#">Bank</a>
+  <a href="#">Tools</a>
+</div>
+<div id = "overlay"></div>
+<div id="parallax1" class="parallax1">
+<span style="color:white;font-size:30px;cursor:pointer" onclick="openNav()" id = "openBtn">&#9776;</span>
+<h1 id="header" class="top">Discord</h1>
   </div>
-<h1 id="discordHeader" class="whiteHeader">Talk in real-time with the Nova server!</h1>
+ <div id="middlebar" style="height:60%">
+</div>
+      
+<div id="parallax2" class="parallax2"></div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("parallaxStyling").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("parallaxStyling").style.marginLeft= "0";
+}
+</script>
 </body>
 </html>
