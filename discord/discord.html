@@ -7,7 +7,7 @@
 <script src = 'js/overlay.js'></script>
 <style>
 body, html {
-  font-family: 'AvenirLTStd-Light', sans-serif;
+  font-family: 'AvenirLTStd-Light';
   transition: background-color .5s;
   height: 100%;
   width: 100%;
@@ -39,6 +39,7 @@ body, html {
 .sidenav a:hover {
     color: #f1f1f1;
 }
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -57,16 +58,31 @@ body, html {
   .sidenav a {font-size: 18px;}
 }
 </style>
-<style id="discord" type="text/css">
+<style id="parallaxStyling" type="text/css">
     body, html {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
 }
+.parallax1, .parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .parallax1 {
      background-image: url("https://laoblogger.com/images/clipart-galaxy-background-4.jpg");
-      min-height: 120%;
-</style>
+      min-height: 80%;
+     }
+ .parallax2 {
+     background-image: url("https://images8.alphacoders.com/601/601973.jpg");
+     min-height: 80%;
+ }
+@media only screen and (max-device-width: 1024px) {
+    .parallax1, .parallax2 {
+        background-attachment: scroll;
+	</style>
 <body>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" id = "closeBtn" onclick="closeNav()">&times;</a>
@@ -77,17 +93,22 @@ body, html {
 </div>
 <div id = "overlay"></div>
 <div id="parallax1" class="parallax1">
-<span style="color:white;font-size:30px;cursor:pointer" onclick="openNav()" id = "openBtn">&#9776;</span>
+<span style="color:white;font-size:30px;cursor:pointer;top:1%;" onclick="openNav()" id = "openBtn">&#9776;</span>
 <h1 id="header" class="top">Discord</h1>
+  </div>
+ <div id="middlebar" style="height:60%">
+</div>
+      
+<div id="parallax2" class="parallax2"></div>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("discord").style.marginLeft = "250px";
+    document.getElementById("parallaxStyling").style.marginLeft = "250px";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("discord").style.marginLeft= "0";
+    document.getElementById("parallaxStyling").style.marginLeft= "0";
 }
 </script>
 </body>
