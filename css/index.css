@@ -88,10 +88,10 @@ p {
 }
 .top {
 position: absolute;
-left: 0%;
+left: 25%;
 right: 0%;
 top: -2.5%; 
-width: 100%;
+width: 50%;
 text-align: center;
 padding-top: 10px;
 font-size: 24px;
