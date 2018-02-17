@@ -3,7 +3,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style id="parallaxStyling" type="text/css">
+<style>
+body, html {
+  font-family: 'AvenirLTStd-Light', sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -41,34 +48,6 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-	body, html {
-  font-family: 'AvenirLTStd-Light', sans-serif;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.parallax1, .parallax2 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
- .parallax1 {
- 	background-image: url("https://laoblogger.com/images/clipart-galaxy-background-4.jpg");
-  	min-height: 80%;
- 	}
- .parallax2 {
- 	background-image: url("https://images8.alphacoders.com/601/601973.jpg");
- 	min-height: 80%;
- }
- /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .parallax1, .parallax2 {
-        background-attachment: scroll;
-    }
-}
 </style>
 	<title>Nova Homepage</title>
 	</head>
@@ -91,13 +70,5 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-     
-<div id="parallax1" class="parallax1">
-	<h1 id="header" class="top">Nova Homepage</h1>
-	</div>
-<div id="middlebar" style="height:60%">
-	
-	</div>		
-<div id="parallax2" class="parallax2">
 </div>	
 </html>
