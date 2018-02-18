@@ -76,7 +76,7 @@
     box-sizing: border-box;
 }
 body {
-	background-color: #98ffc5;
+	background-color: #79CC9D;
 }
 
 .left {
@@ -118,7 +118,7 @@ width: 100%;
 z-index: 0;
 text-align: center;
 color: #fff;
-background-color: #98ffc5;
+background-color: #79CC9D;
 color: #fff;
 padding-top: 1%;
 padding-bottom: 0%;
@@ -134,7 +134,7 @@ letter-spacing: 5px;
   width: 75%;
   text-align: center;
   color: #fff;
-  background-color: #98ffc5;
+  background-color: #79CC9D;
   color: #fff;
   padding-top: 1%;
   padding-bottom: 1%;
