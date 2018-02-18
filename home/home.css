@@ -31,6 +31,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
 .sidenav {
+font-family: 'AvenirLTStd-Light';
     height: 100%; 
     width: 0;
     position: fixed; 
@@ -43,6 +44,7 @@
     padding-top: 10px;
 }
 .sidenav a {
+font-family: 'AvenirLTStd-Light';
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -56,6 +58,7 @@
 }
 
 .sidenav .closebtn {
+font-family: 'AvenirLTStd-Light';
     position: absolute;
     top: 0;
     right: 25px;
@@ -111,6 +114,7 @@ p {
   font-weight: bold;
 }
 .top {
+font-family: 'AvenirLTStd-Light';
 position: absolute;
 right: 0%;
 top: -3%; 
@@ -127,6 +131,7 @@ letter-spacing: 5px;
 }
 
 .middle {
+font-family: 'AvenirLTStd-Light';
   position: absolute;
   left: 12%;
   right: 12%;
