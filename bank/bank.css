@@ -85,7 +85,11 @@ p {
 	font-size: "12px";
   color: white;
 }
-
+.bankbar {
+text-align: center;
+width: 98%;
+left: 1%;
+}
 .paraHead {
   font-size: 3em;
   font-weight: bold;
