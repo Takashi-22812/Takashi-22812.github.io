@@ -152,12 +152,24 @@ letter-spacing: 5px;
   width: 100%;
   text-align: center;
 }
-.centerofpage {
+.discordembed {
   position: absolute;
-  left: 7%;
-  right: 7%;
-  top: 10%;
+  left: 5%;
+  right: 0%;
+  top: 14%;
   width: 75%;
+  text-align: center;
+  color: #fff;
+  background-color: #1D053A;
+  color: #fff;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.discordwidgetembed {
+  position: absolute;
+  right: 5%;
+  top: 14%;
+  width: 15%;
   text-align: center;
   color: #fff;
   background-color: #1D053A;
