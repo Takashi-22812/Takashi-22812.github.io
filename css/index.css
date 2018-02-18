@@ -87,10 +87,12 @@ p {
 }
 
 .paraHead {
+  font-family: "AvenirLTStd-Light";
   font-size: 3em;
   font-weight: bold;
 }
 .top {
+font-family: "astronova";
 position: absolute;
 right: 0%;
 top: -3%; 
@@ -107,6 +109,7 @@ letter-spacing: 5px;
 }
 
 .middle {
+  font-family: "AvenirLTStd-Light";
   position: absolute;
   left: 12%;
   right: 12%;
