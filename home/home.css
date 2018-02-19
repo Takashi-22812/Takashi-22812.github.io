@@ -135,7 +135,7 @@ font-family: 'AvenirLTStd-Light';
   position: absolute;
   left: 12%;
   right: 12%;
-  top: 25%;
+  top: 19%;
   width: 76%;
   text-align: center;
   color: #fff;
@@ -144,7 +144,7 @@ font-family: 'AvenirLTStd-Light';
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 24px;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 .whiteHeader {
   color: white;
