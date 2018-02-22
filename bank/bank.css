@@ -6,22 +6,6 @@
   src: local('AvenirLTStd-Light'), local('AvenirLTStd-Light.otf'), url(https://takashi-22812.github.io/css/AvenirLTStd-Light.otf) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
-/* Audrey-Medium */
-@font-face {
-  font-family: 'Audrey-Medium';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Audrey-Medium'), local('Audrey-Medium.otf'), url(https://takashi-22812.github.io/css/Audrey-Medium.otf) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
-/* Elianto-Regular */
-@font-face {
-  font-family: 'Elianto-Regular';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Elianto-Regular'), local('Elianto-Regular.ttf'), url(https://takashi-22812.github.io/css/Elianto-Regular.ttf) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
-}
 /* astronova */
 @font-face {
   font-family: 'astronova';
@@ -128,18 +112,6 @@ letter-spacing: 5px;
   font-size: 24px;
   letter-spacing: 10px;
 }
-.whiteHeader {
-  color: white;
-  font-size: 52px;
-  letter-spacing: 10px;
-  position: absolute;
-  left: 1%;
-  right: 1%;
-  top: 0%;
-  width: 100%;
-  text-align: center;
-}
-
 #overlay{
   background-color: black;
   position:fixed;
