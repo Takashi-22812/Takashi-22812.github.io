@@ -131,17 +131,6 @@ font-family: 'AvenirLTStd-Light';
   font-size: 24px;
   letter-spacing: 10px;
 }
-.whiteHeader {
-  color: white;
-  font-size: 52px;
-  letter-spacing: 10px;
-  position: absolute;
-  left: 1%;
-  right: 1%;
-  top: 0%;
-  width: 100%;
-  text-align: center;
-}
 #overlay{
   background-color: black;
   position:fixed;
