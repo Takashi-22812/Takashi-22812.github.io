@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html>
 <body>
+<style>
+body, html {
+  transition: background-color .5s;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+.sidenav a {
+font-family: 'AvenirLTStd-Light';
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    font-size: 40px;
+    margin-left: 50px;
+}
+  </style>
 <nav id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" id = "closeBtn" onclick="closeNav()">&times;</a>
   <a href="/index.html">Nova</a>
