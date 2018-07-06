@@ -57,6 +57,7 @@ body {
   border-style: single;
   font-family: "Audrey-Medium";
   font-size: "2em";
+  position: fixed;
   color: white;
 }
 table, th, td {
