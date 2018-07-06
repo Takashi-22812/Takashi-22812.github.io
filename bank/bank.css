@@ -81,7 +81,7 @@ height: 95%
 }
 .top {
 font-family: 'astronova';
-position: absolute;
+position: fixed;
 right: 0%;
 top: -3%; 
 width: 100%;
@@ -122,6 +122,6 @@ letter-spacing: 5px;
 }
 
 #openBtn{
-  position:absolute;
+  position:fixed;
   z-index: 1;
 }
