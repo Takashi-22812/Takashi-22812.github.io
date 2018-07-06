@@ -90,7 +90,13 @@ font-family: 'AvenirLTStd-Light';
 }
 	</style>
 <body>
-<a id="mySidenav" class="sidenav" href="/Menu/Menu.html></a>
+<nav id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id = "closeBtn" onclick="closeNav()">&times;</a>
+  <a href="/index.html">Nova</a>
+  <a href="/discord/discord.html">Nova&nbsp;Discord</a>
+  <a href="/bank/bank.html">Nova&nbsp;Bank</a>
+  <a href="/tools/tools.html">Tools</a>
+</nav>
 <div id = "overlay"></div>
 <div id="parallax1" class="parallax1">
 <span style="color:white;font-size:30px;cursor:pointer;top:-0.5%;" onclick="openNav()" id = "openBtn">☰</span>
@@ -98,19 +104,13 @@ font-family: 'AvenirLTStd-Light';
   </div>
  <div id="middlebar" style="height:50%">
 <div id="mainParagraph" class="center">
-	<p class="paraHead">Welcome to the Nova Hompage!</p>
-	<p>Welcome to the Nova Homepage!</p>
-			</div>
+    <p class="paraHead">Welcome to the Nova Hompage!</p>
+    <p>Welcome to the Nova Homepage!</p>
+            </div>
 </div>  
 <div id="parallax2" class="parallax2"></div>
 
 <script>
-var ddmenuOptions=
-{
-    menuId: "mySidenav",
-    linkIdToMenuHtml: "https://takashi-22812.github.io/Menu/Menu.html",
-    ......
-};
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("parallaxStyling").style.marginLeft = "250px";
