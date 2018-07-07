@@ -1,5 +1,6 @@
 $(window).on("load", function(){
 	$("#overlay").hide();
+	
 	$("#openBtn").click(function(){
 		$("#overlay").fadeIn(700);
 	});
