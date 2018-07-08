@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link REL="SHORTCUT ICON" HREF="https://Takashi-22812.github.io/css/icon.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="items.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src = 'js/jquery-3.2.1.min.js'></script>
+<script src = 'js/overlay.js'></script>
+<title>Items</title>
+</head>
+<style>
+body, html {
+  transition: background-color .5s;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://www.freevector.com/uploads/vector/preview/16984/FreeVector-Blue-Hexagon-Theme.jpg");
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.sidenav a {
+font-family: 'AvenirLTStd-Light';
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" id = "closeBtn" onclick="closeNav()">&times;</a>
+  <a href="/index.html">Nova</a>
+  <a href="/discord/discord.html">Nova&nbsp;Discord</a>
+  <a href="/bank/bank.html">Nova&nbsp;Bank</a>
+  <a href="/items/items.html">Items</a>
+</div>
+<div id = "overlay"></div>
+<div>
+<span style="color:white;font-size:30px;cursor:pointer;top:-0.5%;" onclick="openNav()" id = "openBtn">&#9776;</span>
+</div>
+<div id="Items" class="Items">
+<h1 id="header" class="top">ITEMS</h1>
+  </div>
+
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("discordmain").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("discordmain").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
