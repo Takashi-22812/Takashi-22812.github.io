@@ -151,7 +151,10 @@ font-family: 'AvenirLTStd-Light';
     grid-auto-flow: dense;
     list-style: none;
     margin: 1em auto;
-    padding: 10%;
+    padding-top: 10%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
     max-width: 800px;
 }
 .wrapper li {
