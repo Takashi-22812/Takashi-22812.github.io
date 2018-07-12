@@ -146,7 +146,7 @@ font-family: 'AvenirLTStd-Light';
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     grid-gap: 10px;
     grid-auto-flow: dense;
     list-style: none;
@@ -155,7 +155,7 @@ font-family: 'AvenirLTStd-Light';
     padding-right: 0%;
     padding-bottom: 0%;
     padding-left: 0%;
-    max-width: 800px;
+    max-width: 90%;
 }
 .wrapper li {
     border: 1px solid #ccc;
