@@ -151,7 +151,7 @@ font-family: 'AvenirLTStd-Light';
     grid-auto-flow: dense;
     list-style: none;
     margin: 1em auto;
-    padding: 0;
+    padding: 10%;
     max-width: 800px;
 }
 .wrapper li {
