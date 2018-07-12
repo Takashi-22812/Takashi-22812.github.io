@@ -52,19 +52,7 @@ font-family: 'AvenirLTStd-Light';
     font-size: 40px;
     margin-left: 50px;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid black;
-  text-align: center;
-  font-size: 30px;
-}
+
 #main {
     transition: margin-left .5s;
     padding: 16px;
@@ -91,16 +79,15 @@ font-family: 'AvenirLTStd-Light';
 <h1 id="header" class="top">ITEMS</h1>
   </div>
 
-<div class="grid-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-</div>
+<ul class="wrapper">
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+   <li><img src="http://placehold.it/250x250" alt="placeholder"></li>
+</ul>
 
 <script>
 function openNav() {
