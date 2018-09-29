@@ -101,15 +101,18 @@ table, th, td {
 }
 
 p {
-	font-family: "AvenirLTStd-Light", "AvenirLTStd-Light";
-	font-size: "12px";
+  font-family: "AvenirLTStd-Light", "AvenirLTStd-Light";
+  font-size: "12px";
   color: white;
+  text-align: center;
+ 
 }
 
 .paraHead {
 font-family: 'AvenirLTStd-Light';
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
 }
 .top {
 margin:0;
