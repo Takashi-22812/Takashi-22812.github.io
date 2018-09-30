@@ -179,7 +179,7 @@ font-family: 'AvenirLTStd-Light';
     max-width: 90%;
 }
 .wrapper li {
-    border: 1px solid #ccc;
+    border: 1px solid #ccc0;
 }
 .wrapper li.landscape {
     grid-column-end: span 2;
