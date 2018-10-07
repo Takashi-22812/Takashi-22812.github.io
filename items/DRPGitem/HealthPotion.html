@@ -3,7 +3,7 @@
 <head>
 <link REL="SHORTCUT ICON" HREF="https://Takashi-22812.github.io/css/icon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="https://Takashi-22812.github.io/items/items.css">
+<link rel="stylesheet" type="text/css" href="../items.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src = 'js/jquery-3.2.1.min.js'></script>
 <script src = 'js/overlay.js'></script>
@@ -78,6 +78,10 @@ font-family: 'AvenirLTStd-Light';
      background-image: url("https://Takashi-22812.github.io/items/724855.jpg");
      min-height: 80%;
  }
+.db{
+	display:block;
+	margin:auto;
+}
 @media only screen and (max-device-width: 1024px) {
     .parallax1, .parallax2 {
         background-attachment: scroll;
@@ -99,15 +103,16 @@ font-family: 'AvenirLTStd-Light';
 <h1 class="paraHead" style="color:#ffffff;" id="health_potion">Health Potion</h1>
 <hr>
 <p>
-<a class="media" title="items:health-potion.png"><img src="https://Takashi-22812.github.io/items/DRPGimage/HealthPotion.png" class="image" alt="" width="22%"></a>
+<a class="media db" title="items:health-potion.png"><img src="https://Takashi-22812.github.io/items/DRPGimage/HealthPotion.png" class="image db" alt="" width="22%"></a>
 </p>
+<div style = "background-color:#080A58; text-align: center">
 
-<div class="textalignleft" style="width: 10%;">
+<div class="textalignleft" style="width: 35%;">
 <p>
 <br>
 
 </p>
-</div><div class="textalignleft" style="width: 35%;">
+</div><div class="textalignleft" style="width: 27%;">
 <p>
 <strong>ID:</strong><br>
 
@@ -146,9 +151,9 @@ Shop,Crafting<br>
 
 <!--End of Body Text-->
 </div>
-      
-<div id="parallax2" class="parallax2"></div>
+<div>
 
+<div id="parallax2" class="parallax2"></div>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
